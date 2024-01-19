@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: auto;
+    /* height: 100vh;  */
+    /* min-height: 100vh */
+    /* it means, minimum height must be 100vh */
+    /* vh = vertical height  */
+    width: 100%;
+    background-color: aqua;
+}
+
+

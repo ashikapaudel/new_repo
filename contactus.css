@@ -1,0 +1,117 @@
+.container{
+    height:auto;
+    width: 100%;
+    margin-top: 0px;
+    display: flex;
+    position: sticky;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container .container_title{
+    font-family: cursive;
+    font-style: italic;
+    font-weight: 3rem;
+
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+
+.devbabu{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color:white;
+
+    background-image: url("./images/devbabu100.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* tag for .nav_bar is nav_bar */
+.container .nav_bar{
+    font-size: 28   px;
+    color: #000000;
+    /* position: sticky; */
+    z-index: 1000;
+    margin-right: 15rem;
+    font-style: oblique;
+}
+.container .nav_bar ul{
+    list-style: none;
+
+}
+.container .nav_bar ul li{
+    display: inline-block;
+    margin: 20px 6px;
+
+}
+
+.contact_form{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color:gainsboro;
+}
+
+.contact_form .title_part{
+    height: 4rem;
+}
+
+form {
+background-color: #fff;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+width: 300px;
+}
+
+label {
+display: block;
+margin-bottom: 8px;
+}
+
+input, textarea {
+width: 100%;
+padding: 8px;
+margin-bottom: 16px;
+box-sizing: border-box;
+}
+
+button {
+background-color: #4caf50;
+color: #fff;
+border: none;
+padding: 10px;
+border-radius: 4px;
+cursor: pointer;
+}
+
+button:hover {
+background-color:blue;
+transform: scale(2); 
+transform: rotate(45deg);
+transition: all 0.5s ease-in;
+transform: translatex(-2rem);   
+}
+
+
+.last_icon{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: aqua;
+    margin-top: -30px;
+
+    background-image: url("/images/logo.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+  

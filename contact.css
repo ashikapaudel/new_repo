@@ -1,0 +1,35 @@
+/* .contact_container {
+  height: 500px;
+} */
+
+.contact_container--heading {
+    background-color: pink;
+    height: 32px;
+    text-align: center;
+  }
+  
+  .contact_container--main {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .contact_container--map {
+    /* height: 200px; */
+    border: 2px solid black;
+    width: 100%;
+  }
+  
+  .contact_container--form {
+    /* height: 200px; */
+    border: 2px solid black;
+    width: 100%;
+  }
+  .contact_form--button:hover{
+    background-color: red;
+    color: white;
+    transform: scale(2);
+    transform: rotate(45deg);
+    transition: all 0.5s ease-in;
+    transform: translateY(-2rem);                                             --;
+  }

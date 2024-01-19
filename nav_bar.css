@@ -1,0 +1,32 @@
+.container .nav_bar{
+    height: auto;
+    width: 100%;
+    background: #565353;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    color: #ffffff;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
+
+/* .container .portfolio_details{
+    height: 342px;
+    width: 100%;
+    background-color:rgb(170, 60, 60);
+    padding: 140px 0px 60px 0px;
+} */
+.container .nav_bar ul{
+    /* background-color: red; */
+    list-style: none;
+    /* padding: 10px; */
+    /* text-align: center;
+} */
+}
+.container .nav_bar ul li{
+    /* background-color: yellow; */
+    display: inline-block;
+    margin: 20px 6px;
+
+}
